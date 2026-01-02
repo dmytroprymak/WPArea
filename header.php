@@ -25,7 +25,7 @@
 
 
 	
- <header class="header">
+<header class="header">
       <div class="header__container">
         <nav class="header__nav">
           <div class="header__top">
@@ -53,7 +53,7 @@
           </div>
           <div class="header__bottom">
             <ul class="header__bottom-list">
-             <?php
+            <?php
 			wp_nav_menu(
 				array(
 					'theme_location' => 'menu-1',
