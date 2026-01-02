@@ -179,7 +179,7 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 function add_script_to_head() {
     wp_enqueue_script(
         'custom-script',
-        get_template_directory_uri() . '/js/customizer.js',
+        get_template_directory_uri() . '/js/main.js',
         [],
         null,
         false // false = head, true = footer

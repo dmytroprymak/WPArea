@@ -30,13 +30,6 @@
         <nav class="header__nav">
           <div class="header__top">
             <a class="header__logo" href="#">Area</a>
-            <button class="header__burger menu-btn-open">
-              <svg width="24" height="24">
-                <use href="./img/icons.svg#icon-burger"></use>
-              </svg>
-            </button>
-            <!-- <ul id='primary-menu' class="header__list"> -->
-              <!-- <li id="menu-item-15" class="header__link"> -->
               	<?php
 			wp_nav_menu(
 				array(
@@ -46,13 +39,31 @@
 				)
 			);
 			?>
-      <!-- </li> -->
-
-              <!-- <li class="header__link">
-                <a  href="#contact-section">Contact Us</a>
-              </li> -->
-            <!-- </ul> -->
+            <button id='btn-open' class="header__burger menu-btn-open">
+              <svg width="24" height="24">
+                <use href="./img/icons.svg#icon-burger"></use>
+              </svg>
+            </button>
             <button class="header__button button">
+              Learn More
+              <svg class="button__arrow" width="6" height="6">
+                <use href="./img/icons.svg#arrow-btn"></use>
+              </svg>
+            </button>
+          </div>
+          <div class="header__bottom">
+            <ul class="header__bottom-list">
+             <?php
+			wp_nav_menu(
+				array(
+					'theme_location' => 'menu-1',
+					'menu_id'        => 'primary-menu', 
+
+				)
+			);
+			?>
+            </ul>
+            <button class="header__bottom-button button">
               Learn More
               <svg class="button__arrow" width="6" height="6">
                 <use href="./img/icons.svg#arrow-btn"></use>

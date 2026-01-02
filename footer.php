@@ -15,11 +15,11 @@
       <div class="container">
         <div class="footer__container">
           <ul class="footer__list">
-            <li class='header__link'><a href="#benefits-section">Benefits</a></li>
-            <li class='header__link'>
+            <li class='link'><a href="#benefits-section">Benefits</a></li>
+            <li class='link'>
               <a  href="#specifications-section">Specifications</a>
             </li>
-            <li class='header__link'><a  href="#how-to-section">How-to</a></li>
+            <li class='link'><a  href="#how-to-section">How-to</a></li>
           </ul>
 
           <div class="footer__content">
